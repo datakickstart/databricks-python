@@ -14,7 +14,7 @@ import random
 
 from config import producer_conf, producer_conf_local, sasl_passwords
 
-source_filepath = "/opt/data/nyc_taxi/yellow_trips/2019/yellow_tripdata_json_2019-12.json"
+source_filepath = "data/yellow_tripdata_json_2019-12.json"
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
